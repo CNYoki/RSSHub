@@ -5850,12 +5850,20 @@
       "/shxyj/:year?/:issue?": {
         "path": "/shxyj/:year?/:issue?",
         "categories": [
-          "journal"
+          "academic"
         ],
         "example": "/ajcass/shxyj/2024/1",
         "parameters": {
-          "year": "Year of the issue, `null` for the lastest",
-          "issue": "Issue number, `null` for the lastest"
+          "year": {
+            "type": "string",
+            "description": "Year of the issue",
+            "optional": true
+          },
+          "issue": {
+            "type": "string",
+            "description": "Issue number",
+            "optional": true
+          }
         },
         "features": {
           "requireConfig": false,
@@ -5875,7 +5883,6 @@
     "name": "社科期刊网",
     "url": "ajcass.com",
     "description": "中国社会科学院学术期刊方阵",
-    "lang": "zh-CN",
     "zh": {
       "name": "社科期刊网"
     }
