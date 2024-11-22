@@ -5850,7 +5850,7 @@
       "/shxyj/:year?/:issue?": {
         "path": "/shxyj/:year?/:issue?",
         "categories": [
-          "Scientific Journal"
+          "journal"
         ],
         "example": "/ajcass/shxyj/2024/1",
         "parameters": {
