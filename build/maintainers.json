@@ -6235,6 +6235,9 @@
   "/sobooks/tag/:id?": [
     "nczitzk"
   ],
+  "/society/current": [
+    "CNYoki"
+  ],
   "/sogou/doodles": [
     "xyqfer"
   ],

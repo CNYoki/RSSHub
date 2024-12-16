@@ -74744,6 +74744,37 @@
     "url": "sobooks.net",
     "lang": "en"
   },
+  "society": {
+    "routes": {
+      "/current": {
+        "path": "/current",
+        "categories": [
+          "journal"
+        ],
+        "example": "/current",
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "name": "《社会》期刊当期目录",
+        "maintainers": [
+          "CNYoki"
+        ],
+        "location": "current.ts"
+      }
+    },
+    "name": "《社会》期刊",
+    "url": "www.society.shu.edu.cn",
+    "description": "《社会》期刊当期目录",
+    "lang": "zh-CN",
+    "zh": {
+      "name": "《社会》期刊"
+    }
+  },
   "sogou": {
     "routes": {
       "/doodles": {
