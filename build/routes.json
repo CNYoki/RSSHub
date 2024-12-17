@@ -72943,6 +72943,26 @@
         "description": "| 通知通告 | 新闻 | 政策文件(bug) |\n  | -------- | ---- | -------- |\n  | notice   | news | policy   |",
         "location": "jwb.ts"
       },
+      "/journals/society/current": {
+        "path": "/journals/society/current",
+        "categories": [
+          "journal"
+        ],
+        "example": "/journals/society/current",
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "name": "《社会》杂志当期目录",
+        "maintainers": [
+          "CNYoki"
+        ],
+        "location": "society.ts"
+      },
       "/xykd/:type?": {
         "path": "/xykd/:type?",
         "categories": [
@@ -74743,37 +74763,6 @@
     "name": "SoBooks",
     "url": "sobooks.net",
     "lang": "en"
-  },
-  "society": {
-    "routes": {
-      "/current": {
-        "path": "/current",
-        "categories": [
-          "journal"
-        ],
-        "example": "/current",
-        "features": {
-          "requireConfig": false,
-          "requirePuppeteer": false,
-          "antiCrawler": false,
-          "supportBT": false,
-          "supportPodcast": false,
-          "supportScihub": false
-        },
-        "name": "《社会》期刊当期目录",
-        "maintainers": [
-          "CNYoki"
-        ],
-        "location": "current.ts"
-      }
-    },
-    "name": "《社会》期刊",
-    "url": "www.society.shu.edu.cn",
-    "description": "《社会》期刊当期目录",
-    "lang": "zh-CN",
-    "zh": {
-      "name": "《社会》期刊"
-    }
   },
   "sogou": {
     "routes": {
