@@ -257,6 +257,8 @@ export type RoutePath =
   | `/arcteryx/outlet/:country/:gender`
   | `/arcteryx/regear/new-arrivals`
   | `/arena/leaderboard/:category?`
+  | `/arm/blog/:topic?`
+  | `/arm/news/:topic?`
   | `/artstation/:handle`
   | `/arxiv/:query`
   | `/asahi/:genre?/:category?`
@@ -274,6 +276,7 @@ export type RoutePath =
   | `/asml/press-releases`
   | `/asmr-200/works/:order?/:subtitle?/:sort?`
   | `/asus/bios/:model/:lang?`
+  | `/asus/driver/:model/:lang?/:os?`
   | `/asus/gpu-tweak`
   | `/atcoder/contest/:language?/:rated?/:category?/:keyword?`
   | `/atcoder/post/:language?/:keyword?`
@@ -1583,6 +1586,7 @@ export type RoutePath =
   | `/grist/featured`
   | `/grist/series/:series`
   | `/grist/topic/:topic`
+  | `/groq/blog`
   | `/grubstreet/`
   | `/grupoanimal/estados`
   | `/grupoanimal/politica`
